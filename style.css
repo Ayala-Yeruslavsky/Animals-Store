@@ -1,0 +1,99 @@
+html, body  {
+    background-image: linear-gradient(90deg, rgb(230, 80, 80), white);
+    width: auto;
+    text-align: center;
+    margin: 0;
+}
+
+.layout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 3fr 12fr 1fr;
+    grid-template-columns: 20% 80%;
+}
+
+header, nav, main, footer {
+    border: 1px solid black;
+}
+header, footer {
+    grid-column: span 2;
+}
+
+header, footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    line-height: 100px;
+
+    
+}
+
+main > iframe {
+ width: 360px;
+ height: 300px;
+ align-items: justify;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    box-sizing: border-box;
+   
+}
+
+.photo > img {
+    gap: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height:150px;
+}
+
+
+.container {
+    font-size: xx-large;
+}
+
+.details {
+    display: grid;
+    width: 400px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    
+    
+}
+.details > div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.details input, .details textarea, .details button {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+.details textarea {
+    height: 100px;
+}
+
+input, textarea {
+    background-color: yellow;
+}
+
+button {
+background-color: aqua;
+
+}
+
+
