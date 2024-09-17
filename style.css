@@ -96,4 +96,57 @@ background-color: aqua;
 
 }
 
+.cat-img > img {
+    width: 150px;
+    
+}
+
+.cat-img > p {
+    padding-bottom: 20px;
+}
+
+.food {
+    display: grid;
+    width: 400px;
+    margin: 50px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 25px;
+    
+}
+
+.dog-img > img {
+    width: 150px;
+}
+
+.dog-img > p {
+    padding-bottom: 20px;
+}
+
+.parrot-img > img {
+    width: 150px;
+}
+
+.parrot-img > p {
+    padding-bottom: 20px;
+}
+
+.fish-img > img {
+    width: 150px;
+    
+}
+
+.fish-img > p {
+    padding-bottom: 20px;
+}
+
+.rabbit-img > img {
+    width: 150px;
+}
+
+.rabbit-img > p {
+    padding-bottom: 20px;
+}
+
+
 
